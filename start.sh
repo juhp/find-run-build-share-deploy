@@ -79,7 +79,7 @@ deploy_containers() {
 	# Simple Use Case
 	echo
 	read_color "Once we have shared some container images, how do we deploy them in production?"
-	read_color "There are often scalibility, and high availability requirements right?"
+	read_color "There are often scalability, and high availability requirements right?"
 	read_color "We need to get to an enterpise Kubernetes platform like OpenShift"
 	read_color "But, how do we get from Podman to Kubernetes?"
 	read_color "Easy, with a feature called 'podman generate kube'"
